@@ -6,7 +6,7 @@ pipeline {
         DOCKER_IMAGE = 'cithit/grimesdl-lb'         //do change this
         // Use Jenkins build number as part of the image tag
         IMAGE_TAG = "build-${BUILD_NUMBER}"
-        GITHUB_URL = 'https://github.com/grimesdl/grimesdl-lb-deploy.git'  //do change this
+        GITHUB_URL = 'https://github.com/grimesdl/grimesdl-lb.git'  //do change this
         
         KUBECONFIG = credentials('grimesdl-225')  //do change this
     }
