@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKER_CREDENTIALS_ID = 'roseaw-dockerhub'   //don't change this
-        DOCKER_IMAGE = 'cithit/grimesdl-metal'         //do change this
+        DOCKER_IMAGE = 'cithit/grimesdl-metallb-deploy'         //do change this
         // Use Jenkins build number as part of the image tag
         IMAGE_TAG = "build-${BUILD_NUMBER}"
         GITHUB_URL = 'https://github.com/grimesdl/grimesdl-lb-deploy.git'  //do change this
